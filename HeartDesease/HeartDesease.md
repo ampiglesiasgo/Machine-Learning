@@ -67,4 +67,4 @@ Se utilizaron varias formas de obtener el conjunto de atributos los cuales deter
 
 # Presentación
 
-Descargue la presentación con imágenes del proceso haciendo click en el siguiente [enlace]().
+Descargue la presentación con imágenes del proceso haciendo click en el siguiente [enlace](Heart Disease.pdf).
