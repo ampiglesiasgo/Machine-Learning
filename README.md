@@ -23,7 +23,7 @@ Se evalúa entonces la posibilidad de aplicar alguno de los siguientes modelos d
 
 # Trabajos de aplicación
 
-## UT4 - Arboles de decisión 
+## UT4 - Árboles de decisión 
 
   Una compañía de venta de dispositivos móviles en línea, esta apunto de lanzar un nuevo producto (eReader), y desea maximizar la efectividad de su marketing para el producto. A traves de datos de el comportamiento de los clientes en el sitio web , se pretende detectar que clientes van a comprar el nuevo producto apenas salga, quienes en un corto tiempo y quienes lo harán más tarde.
 
