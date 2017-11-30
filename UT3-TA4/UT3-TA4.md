@@ -41,7 +41,7 @@ En segundo lugar, se utilizó el operador “Nominal to Binomial” para cambiar
 
 Por último, se utilizó el operador “Normalize” para normalizar los datos debido a la variabilidad que existía entre los valores de los diferentes atributos. Un detalle no menor es que, con el objetivo de evitar la contaminación, esta operación se realizó dentro del operador “Cross Validation”, utilizado para evaluar la performance de las diferentes alternativas manejadas para entrenar el modelo.
 
-![](Normalize.png "Normalización")
+![](Normalize.PNG "Normalización")
 
 # Alternativas manejadas
 
@@ -53,49 +53,49 @@ Dado que el problema es supervisado, de clasificación y todos los atributos de 
 
 ## Logistic Regression
 
-![](LogisticRegression.png "Logistic Regression")
+![](LogisticRegression.PNG "Logistic Regression")
 
 **DETALLE:** Configuración por defecto
 
 ## LDA
 
-![](LDA.png "LDA")
+![](LDA.PNG "LDA")
 
 **DETALLE:** Configuración por defecto
 
 ## K-NN
 
-![](K-NN.png "K-NN")
+![](K-NN.PNG "K-NN")
 
 **DETALLE:** Configurado con K = 3, voto por peso activado y distancia euclideana como función de distancia
 
 ## Naive Bayes
 
-![](NaiveBayes.png "Naive Bayes")
+![](NaiveBayes.PNG "Naive Bayes")
 
 **DETALLE:** Configuración por defecto
 
 ## Decission tree
 
-![](DecissionTree.png "Decission tree")
+![](DecissionTree.PNG "Decission tree")
 
 **DETALLE:** Configuración por defecto
 
 ## SVM
 
-![](SVM.png "SVM")
+![](SVM.PNG "SVM")
 
 **DETALLE:** Configurado con kernel radial, C = 0 y opción de escala desactivada
 
 ## Random Forest
 
-![](RandomForest.png "Random Forest")
+![](RandomForest.PNG "Random Forest")
 
 **DETALLE:** Configurado para construir 100 árboles
 
 ## Vote
 
-![](Vote.png "Vote")
+![](Vote.PNG "Vote")
 
 **DETALLE:** Configurado con Decission tree, Naive Bayes y LDA dentro del subproceso. La configuración de los algorítmos antes mencionados es la misma que usaron por separado
 
