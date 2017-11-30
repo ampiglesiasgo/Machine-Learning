@@ -173,3 +173,7 @@ Algunos parámetros a destacar:
 Se pudo observar que los modelos de detección de outliers no fueron exitosos ya que el propio dataset no permite que ninguno de los criterios de detección sea efectivo (se puede observar que los ejemplos con la enfermedad están muy cercanos a los que no la tienen). Por esa razón se decidió utilizar el modelo de Random Forest ya que se obtuvieron los mejores resultados de recall en la clase que se interesa predecir (verdadero-positivo). Además se trata de un modelo liviano a la hora de integrarlo en un sistema de apoyo a las decisiones médicas.
 
 Los resultados son moderadamente aceptables si se considera como un problema de clasificación, pero si se toma en cuenta que la clase que se predice tiene una baja representación dentro del dataset, el resultado puede ser considerado bueno.
+
+# Presentacion
+
+Descargue la presentacion con imagenes del proceso haciendo click en el siguiente [enlace](Deteccion de anomalías.pdf)
