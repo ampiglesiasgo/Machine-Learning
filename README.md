@@ -4,8 +4,11 @@
 
 ## Heart Disease
 
+[Acceso al informe]()
 
+## Hipotiroidismo
 
+[Acceso al informe](Hipotiroidismo/Hipotiroidismo.md)
 
 
 # Trabajos de aplicacion
