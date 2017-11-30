@@ -39,7 +39,7 @@
   Para finalizar, se utilizó la herramienta "multiply” para hacer la repetición de los datos, para todas las pruebas que vamos a mencionar posteriormente
 
   Imagen del proceso:
-  ![alt text](agregar link)
+  ![alt text](Proceso.png)
 
 
 
@@ -57,14 +57,18 @@
   La profundidad del árbol también se definió el 20 , y en este caso no se aplicó ni pruning ni pre pruning.
 
   Imagen del modelo:
-  ![alt text](agregar link)
+  ![alt text](ModeloArboles.png)
+  
+  ![alt text](ModeloArboles1.png)
 
 - ## Resultado
 
   Imagen matriz de cofuncion
-  ![alt text](agregar link)
+  ![alt text](Matriz.png)
 
   Como se ve en la imagen se obtuvo un fiabilidad de modelo del 50% , valor que no es malo , pero tampoco es de los esperados para el modelo. Verificando otras posibilidades, como modificar los criterios de contruccion del arbol ,no se obtuvieron resultados con grandes cambios.
 
 - ## Enlaces
-### [Descargar Modelo Rapidminer](link)
+### [Descargar Modelo Rapidminer](https://raw.githubusercontent.com/ucu2017-ml-grupo1/Machine-learning/master/UT4_Arboles_Decision/eReader.rmp)
+
+nota: Haga click derecho sobre el link, luego descargue archivo enlazado, y borre la extension .txt
