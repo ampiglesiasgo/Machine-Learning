@@ -110,3 +110,8 @@ Luego de analizar la performance de cada alternativa se puede concluir los sigui
 
 
 > Para ver las predicciones realizadas utilizando el modelo entrenado con SVM sobre el dataset de scoring haga click sobre el siguiente [enlace]().
+
+Enlaces
+### [Descargar Modelo Rapidminer]()
+
+nota: Haga click derecho sobre el link, luego descargue archivo enlazado, y borre la extension .txt
