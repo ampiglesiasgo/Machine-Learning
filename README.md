@@ -1,4 +1,4 @@
-## Bienvenido al repositorio de machine learning - Grupo1 - UCU
+## Bienvenido al repositorio de Machine Learning - Grupo1 - UCU
 
 # Casos de estudio
 
