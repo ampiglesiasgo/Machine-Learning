@@ -1,12 +1,12 @@
 ## Bienvenido al repositorio de machine learning - Grupo1 - Ucu
 
-# Primer caso de estudio
+# Casos de estudio
 
-## Heart Disease
+## Caso 1 - Heart Disease
 
-[Acceso al informe]()
+[Acceso al informe](HeartDesease/HeartDesease.md)
 
-## Hipotiroidismo
+## Caso 2 - Deteccion de anomalias - Hipotiroidismo
 
 [Acceso al informe](Hipotiroidismo/Hipotiroidismo.md)
 
@@ -21,7 +21,7 @@
 
 [Acceso al informe](UT5-kMeans/k-Means.md)
 
-## UT3-TA4
+## UT3-TA4 - Evolucionado
 
 [Acceso al informe](UT3-TA4/UT3-TA4.md)
 
