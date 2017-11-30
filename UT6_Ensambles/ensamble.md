@@ -48,3 +48,7 @@ Tampoco es necesario la definición de estrategias de validación y división de
 | AdaBoost con Decision Stump            | 36.67%    |
 | Gradient Boosted Trees                 | 59,33%    |
 | Random Forest (implementación de Weka) | 61,33%    |
+
+# Enlaces 
+
+### [Descargar Modelo Rapidminer](UT6_TA2.rmp)
