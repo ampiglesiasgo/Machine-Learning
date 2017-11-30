@@ -1,4 +1,4 @@
-# Hipotiroidismo
+# Caso 2 - Detección de anomalías - Hipotiroidismo
 
 # Descripción del problema
 
