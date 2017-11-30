@@ -9,7 +9,7 @@
 - ## Datasets utilizados
 
   Para la resolución de este problema se utilizaron dos datasets, uno para entrenar el modelo (eReader_Training.csv) , el cual contiene 661 instancias y 11 atributos.
-  Luego para predecir a las actitudes buscadas en los clientes tenes el dataset (eReader_Scoring.csv) , con 473 ejemplos y 10 atributos. Ambos se encuentran disponibles para su descarga en este [link1](eReader_Scoring.csv) [link2](eReader_Training.csv).
+  Luego para predecir a las actitudes buscadas en los clientes tenes el dataset (eReader_Scoring.csv) , con 473 ejemplos y 10 atributos. Ambos se encuentran disponibles para su descarga en este [Link1](eReader_Scoring.csv) - [Link2](eReader_Training.csv).
 
     ### Atributos
 
