@@ -43,7 +43,7 @@ Visualización gráfica de los datos agrupados:
 
 ![](captura3.png)
 
-Enlaces
+# Enlaces
 ### [Descargar Modelo Rapidminer](https://raw.githubusercontent.com/ucu2017-ml-grupo1/Machine-learning/master/UT5-kMeans/k-Means.rmp)
 
-nota: Haga click derecho sobre el link, luego descargue archivo enlazado, y borre la extension .txt
+
