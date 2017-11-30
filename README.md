@@ -2,4 +2,4 @@
 
 # Primer caso de estudio
 
-##Heart Disease
+## Heart Disease
