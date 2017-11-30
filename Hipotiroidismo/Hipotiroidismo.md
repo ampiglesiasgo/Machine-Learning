@@ -179,3 +179,10 @@ Los resultados son moderadamente aceptables si se considera como un problema de 
 # Presentacion
 
 Descargue la presentacion con imagenes del proceso haciendo click en el siguiente [enlace](Deteccion de anomalías.pdf)
+
+Enlaces
+### [Descargar Modelo Rapidminer preprocesamiento no supervisado](Modelo/preprocesamiento_primera etapa.rmp)
+
+### [Descargar Modelo Rapidminer preprocesamiento supervisado](Modelo/preprocesamiento estratificado.rmp)
+
+### [Descargar Modelo Rapidminer procesamiento](Modelo/procesamiento.rmp)
