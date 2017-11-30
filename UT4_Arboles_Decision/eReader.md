@@ -71,4 +71,3 @@
 - ## Enlaces
 ### [Descargar Modelo Rapidminer](https://raw.githubusercontent.com/ucu2017-ml-grupo1/Machine-learning/master/UT4_Arboles_Decision/eReader.rmp)
 
-nota: Haga click derecho sobre el link, luego descargue archivo enlazado, y borre la extension .txt
