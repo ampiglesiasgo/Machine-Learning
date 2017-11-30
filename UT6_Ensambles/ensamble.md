@@ -17,10 +17,11 @@ Se cuenta con 2 datasets disjuntos:
 -	De test: para utilizar en el proceso de evaluación de la precisión del modelo construido con el dataset anterior. Este dataset no contiene ningún error de valores en la clase label.
 
 ## Información de los atributos
-| Atributos               | Descripción                                                                                          |
-|-------------------------|------------------------------------------------------------------------------------------------------|
-| class                   | Clase de cobertura terrestre.                                                                        |
-| max_ndvi                | Máximo valor de NDVI* obtenido de las,imágenes satelitales en la serie de tiempo cubierta.           |
+
+| Atributos               | Descripción   |                                                                                       
+|-------------------------|----------------------------------------------------------------------------------|
+| class                   | Clase de cobertura terrestre.          |                                                              
+| max_ndvi                | Máximo valor de NDVI* obtenido de las,imágenes satelitales en la serie de tiempo cubierta. |          
 | 20150720_N - 20140101_N | Valores de NDVI obtenidos de las imágenes,satelitales obtenidos entre enero de 2014 y julio de 2015. |
 
 *NDVI (normalized difference vegetation index): indicador gráfico que se usa para analizar mediciones de detección remota y evaluar si el objetivo que se observa contiene vegetación verde viva o no.
