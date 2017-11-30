@@ -8,7 +8,7 @@
 
 [Acceso al informe](HeartDesease/HeartDesease.md)
 
-## Caso 2 - Deteccion de anomalias - Hipotiroidismo
+## Caso 2 - Detección de anomalías - Hipotiroidismo
 
   Se trata de un problema de clasificación ya que se intenta predecir si un paciente tiene o no la enfermedad a partir de ciertas características del mismo. Además, es un problema supervisado ya que se cuenta con el resultado de la clasificación en los ejemplos del dataset. Por último, otra característica importante del problema es el hecho de que la cantidad de personas que sufren la enfermedad es sensiblemente menor que la cantidad de gente que no la sufre, lo cual debe ser considerado a la hora de elegir un modelo para resolver el problema.
 
@@ -21,15 +21,15 @@ Se evalúa entonces la posibilidad de aplicar alguno de los siguientes modelos d
 [Acceso al informe](Hipotiroidismo/Hipotiroidismo.md)
 
 
-# Trabajos de aplicacion
+# Trabajos de aplicación
 
-## UT4 - Arboles de decision 
+## UT4 - Arboles de decisión 
 
   Una compañía de venta de dispositivos móviles en línea, esta apunto de lanzar un nuevo producto (eReader), y desea maximizar la efectividad de su marketing para el producto. A traves de datos de el comportamiento de los clientes en el sitio web , se pretende detectar que clientes van a comprar el nuevo producto apenas salga, quienes en un corto tiempo y quienes lo harán más tarde.
 
 [Acceso al informe](UT4_Arboles_Decision/eReader.md)
 
-## UT5-kMeans
+## UT5 - k-Means
 
   La Dra. Martínez es directora de programa para una gran empresa de seguros médicos. Recientemente ha visto una cantidad de investigaciones que ponen gran énfasis en la influencia del peso, sexo y colesterol en el desarrollo de enfermedad coronaria.
 
@@ -39,7 +39,7 @@ Se trata de un problema de agrupación no supervisado en el que se intenta descu
 
 [Acceso al informe](UT5-kMeans/k-Means.md)
 
-## UT3-TA4 - Evolucionado
+## UT3 - TA4 Evolucionado
 
   El problema que se plantea en este documento consiste en determinar el riesgo que tiene un paciente de sufrir un segundo ataque cardíaco utilizando la información histórica de un gran número de pacientes.
 
@@ -49,7 +49,7 @@ Dentro de los factores que aumentan el riesgo de sufrir un ataque cardíaco repe
 
 [Acceso al informe](UT3-TA4/UT3-TA4.md)
 
-## UT6_Ensambles
+## UT6 - Ensambles
 
   El planteo original del problema plantea la necesidad de crear un algoritmo de machine learning capaz de clasificar áreas poligonales en imágenes satelitales con un label de acuerdo a su condición. Los label son: impervious (impermeable), farm (granja), forest (bosque), grass (pasto), orchard (huerta), water (agua). Este problema es, por lo tanto, un problema de clasificación.
 
