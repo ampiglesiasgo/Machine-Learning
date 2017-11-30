@@ -36,12 +36,12 @@ En primer lugar, se importó el dataset de entrenamiento a la herramienta elegid
 
 En segundo lugar, se utilizó el operador “Nominal to Binomial” para cambiar el tipo del atributo 2do_Ataque_Corazon. Esta acción se debe a que dicho atributo solo tiene dos valores posibles (Sí / No) y la herramienta lo reconocía como polinomial. Además,  se marcó dicho atributo como la variable a predecir utilizando el operador “Set Role”.
 
-![](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Preprocesamiento")
+![](Preprocessing.png "Preprocesamiento")
 
 
 Por último, se utilizó el operador “Normalize” para normalizar los datos debido a la variabilidad que existía entre los valores de los diferentes atributos. Un detalle no menor es que, con el objetivo de evitar la contaminación, esta operación se realizó dentro del operador “Cross Validation”, utilizado para evaluar la performance de las diferentes alternativas manejadas para entrenar el modelo.
 
-![](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Normalización")
+![](Normalize.png "Normalización")
 
 # Alternativas manejadas
 
@@ -53,49 +53,49 @@ Dado que el problema es supervisado, de clasificación y todos los atributos de 
 
 ## Logistic Regression
 
-![](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logistic Regression")
+![](LogisticRegression.png "Logistic Regression")
 
 **DETALLE:** Configuración por defecto
 
 ## LDA
 
-![](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "LDA")
+![](LDA.png "LDA")
 
 **DETALLE:** Configuración por defecto
 
 ## K-NN
 
-![](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "K-NN")
+![](K-NN.png "K-NN")
 
 **DETALLE:** Configurado con K = 3, voto por peso activado y distancia euclideana como función de distancia
 
 ## Naive Bayes
 
-![](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Naive Bayes")
+![](NaiveBayes.png "Naive Bayes")
 
 **DETALLE:** Configuración por defecto
 
 ## Decission tree
 
-![](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Decission tree")
+![](DecissionTree.png "Decission tree")
 
 **DETALLE:** Configuración por defecto
 
 ## SVM
 
-![](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "SVM")
+![](SVM.png "SVM")
 
 **DETALLE:** Configurado con kernel radial, C = 0 y opción de escala desactivada
 
 ## Random Forest
 
-![](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Random Forest")
+![](RandomForest.png "Random Forest")
 
 **DETALLE:** Configurado para construir 100 árboles
 
 ## Vote
 
-![](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Vote")
+![](Vote.png "Vote")
 
 **DETALLE:** Configurado con Decission tree, Naive Bayes y LDA dentro del subproceso. La configuración de los algorítmos antes mencionados es la misma que usaron por separado
 
