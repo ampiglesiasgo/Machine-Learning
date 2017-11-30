@@ -69,4 +69,4 @@
   Como se ve en la imagen se obtuvo un fiabilidad de modelo del 50% , valor que no es malo , pero tampoco es de los esperados para el modelo. Verificando otras posibilidades, como modificar los criterios de contruccion del arbol ,no se obtuvieron resultados con grandes cambios.
 
 - ## Enlaces
-### [Descargar Modelo Rapidminer](eReader.rmp)
+### [Descargar Modelo Rapidminer](https://raw.githubusercontent.com/ucu2017-ml-grupo1/Machine-learning/master/UT4_Arboles_Decision/eReader.rmp)
