@@ -36,7 +36,7 @@ En primer lugar, se importó el dataset de entrenamiento a la herramienta elegid
 
 En segundo lugar, se utilizó el operador “Nominal to Binomial” para cambiar el tipo del atributo 2do_Ataque_Corazon. Esta acción se debe a que dicho atributo solo tiene dos valores posibles (Sí / No) y la herramienta lo reconocía como polinomial. Además,  se marcó dicho atributo como la variable a predecir utilizando el operador “Set Role”.
 
-![](Preprocessing.png "Preprocesamiento")
+![](Preprocessing.PNG "Preprocesamiento")
 
 
 Por último, se utilizó el operador “Normalize” para normalizar los datos debido a la variabilidad que existía entre los valores de los diferentes atributos. Un detalle no menor es que, con el objetivo de evitar la contaminación, esta operación se realizó dentro del operador “Cross Validation”, utilizado para evaluar la performance de las diferentes alternativas manejadas para entrenar el modelo.
