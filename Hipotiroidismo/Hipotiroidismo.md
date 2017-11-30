@@ -67,7 +67,7 @@ Una vez importado el dataset en RapidMiner, se diseñaron dos procesos de prepar
 
 ## Preprocesamiento para algoritmos no supervisados
 
-![](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Preprocesamiento no supervisado")
+![](Preprocesamiento1.PNG "Preprocesamiento no supervisado")
 
 En primer lugar se generó un atributo “outlier_label” para utilizarlo en la evaluación del modelo a entrenar. Para esto se utilizó el operador “Generate Attribute” con la siguiente fórmula: si class != false ; true ; false. En otras palabras, “outlier_label” tendrá un valor “true” cuando la variable “class” indique que el paciente representado tiene una enfermedad de tiroides.
 
@@ -87,7 +87,7 @@ Por último se utilizaron dos operadores “Store” para guardar el dataset pre
 
 ## Preparación para algoritmos supervisados
 
-![](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Preprocesamiento supervisado")
+![](Preprocesamiento2.PNG "Preprocesamiento supervisado")
 
 Como se mencionó previamente, este proceso de preparación es una continuación del primero, por tanto se comenzó importando, con el operador “Retrieve”, el archivo que contiene el dataset preprocesado por el proceso anterior.
 
@@ -108,13 +108,13 @@ El fundamento de éste método es que los datos atípicos se encuentran separado
 ### Parámetros
 
 El valor de n elegido es 180. Fue obtenido gracias a que el dataset ya está etiquetado y permite tener el dato de la proporción de personas que están enfermas al hacerse los análisis. El valor k elegido fue 5 y fue obtenido tras experimentar con todos los valores entre 2 y 10. El otro parámetro es la medida de distancia a utilizar, para el cual se eligió Distancia Euclidiana, porque es la que mejor separación de los datos (y performance) obtuvo.
-### Modelo
+### Modelog
 
-![](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Modelo distancia")
+![](distancia_modelo.png "Modelo distancia")
 
 ### Resultado
 
-![](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Resultado distancia")
+![](distancia_resultados.png "Resultado distancia")
 
 Se obtuvo una precisión de 85.27%, lo que a primera instancia no parece un mal resultado, pero si se observa el valor para el recall en la clase que se busca predecir, se obtuvo solo un 9.44%, es decir, sólo ese porcentaje de los outliers (personas enfermas) fueron detectadas como tal, la cual es una baja performance.
 
@@ -131,20 +131,20 @@ Dentro de las mediciones de distancia tenemos medición como euclidiano, el cose
 Se testeo con la recomendacion segun el modulo de optimizacion de parametros y tambien con pruebas manuales.
 
 ### Modelo
+g
+![](modelo2.png "Modelo densidad 1")
 
-![](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Modelo densidad 1")
-
-![](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Modelo densidad 2")
+![](modelo.png "Modelo densidad 2")
 
 ### Resultado
 
-![](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Resultado densidad")
+![](resultado1.png "Resultado densidad")
 
 Ambas pruebas dieron el mismo resultado, con una precisión de 91,8%, no parece un mal resultado, todo lo contrario, pero si se observa el valor para el recall se obtuvo solo un 0.00%, es decir, no se pudieron detectar outliers
 
 Colocando valores de distancias muy pequeños como 2, 3 o 4 , podemos obtener mejores resultados
 
-![](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Resultado densidad")
+![](resultado2.png "Resultado densidad")
 
 Pero esto implica también, a que se consideran outliers datos que no lo son.
 
@@ -162,11 +162,13 @@ Algunos parámetros a destacar:
 
 ### Modelo
 
-![](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Modelo random forest")
+![](modelo_randomforest_1.png "Modelo random forest")
+
+![](modelo_randomforest_2.png "Modelo random forest")
 
 ### Resultado
 
-![](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Resultado random forest")
+![](randomForest_resultado.png "Resultado random forest")
 
 # Conclusión
 
