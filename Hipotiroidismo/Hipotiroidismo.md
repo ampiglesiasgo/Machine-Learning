@@ -108,13 +108,13 @@ El fundamento de éste método es que los datos atípicos se encuentran separado
 ### Parámetros
 
 El valor de n elegido es 180. Fue obtenido gracias a que el dataset ya está etiquetado y permite tener el dato de la proporción de personas que están enfermas al hacerse los análisis. El valor k elegido fue 5 y fue obtenido tras experimentar con todos los valores entre 2 y 10. El otro parámetro es la medida de distancia a utilizar, para el cual se eligió Distancia Euclidiana, porque es la que mejor separación de los datos (y performance) obtuvo.
-### Modelog
+### Modelo
 
-![](distancia_modelo.png "Modelo distancia")
+![](distancias_modelo.png "Modelo distancia")
 
 ### Resultado
 
-![](distancia_resultados.png "Resultado distancia")
+![](distancias_resultados.png "Resultado distancia")
 
 Se obtuvo una precisión de 85.27%, lo que a primera instancia no parece un mal resultado, pero si se observa el valor para el recall en la clase que se busca predecir, se obtuvo solo un 9.44%, es decir, sólo ese porcentaje de los outliers (personas enfermas) fueron detectadas como tal, la cual es una baja performance.
 
