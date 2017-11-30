@@ -37,7 +37,7 @@ Tampoco es necesario la definición de estrategias de validación y división de
 -	Random Forest (implementación de Weka)
 
 # Modelo utilizado
-![Imagen del proceso](https://ugc.kn3.net/i/origin/http://www.huertoenalquiler.es/app/uploads/2014/12/tomate21.jpg)
+![Imagen del proceso](Screen Shot 2017-11-30 at 4.02.39 PM.png)
 
 # Resultados obtenidos
 | Algoritmo                              | Precisión |
