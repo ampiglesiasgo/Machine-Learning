@@ -71,3 +71,5 @@ Descargue la presentación con imágenes del proceso haciendo click en el siguie
 
 # Enlaces
 ### [Descargar Modelo Rapidminer](heart-disease-process.rmp)
+
+* En este trabajo tambíen participo Giovanni Benvenuto.
