@@ -10,7 +10,7 @@ Dentro de los factores que aumentan el riesgo de sufrir un ataque cardíaco repe
 
 # Datasets utilizados
 
-Para la resolución de este problema se utilizaron dos datasets, uno para entrenar el modelo (cardiac-training.csv) y el restante para predecir el riesgo que tienen algunos pacientes de muestra (cardiac-scoring.csv). Ambos se encuentran disponibles para su descarga en este [enlace]().
+Para la resolución de este problema se utilizaron dos datasets, uno para entrenar el modelo (cardiac-training.csv) y el restante para predecir el riesgo que tienen algunos pacientes de muestra (cardiac-scoring.csv). Ambos se encuentran disponibles para su descarga en este [enlace](cardiac.zip).
 
 ## Dataset de entrenamiento
 El dataset cardiac-training.csv está compuesto por 138 ejemplos y 8 atributos. Estos últimos se detallan a continuación:
@@ -109,7 +109,7 @@ Luego de analizar la performance de cada alternativa se puede concluir los sigui
 * A pesar de la paridad de las alternativas, el modelo entrenado con el algoritmo SVM se destacó con 95.12 % de confianza, por tanto, este fue el modelo elegido.
 
 
-> Para ver las predicciones realizadas utilizando el modelo entrenado con SVM sobre el dataset de scoring haga click sobre el siguiente [enlace]().
+> Para ver las predicciones realizadas utilizando el modelo entrenado con SVM sobre el dataset de scoring haga click sobre el siguiente [enlace](cardiac-scoring.xlsx).
 
 Enlaces
 ### [Descargar Modelo Rapidminer](UT3-TA4.rmp)
