@@ -40,8 +40,9 @@ Tampoco es necesario la definición de estrategias de validación y división de
 ![Imagen del proceso](Screen Shot 2017-11-30 at 4.02.39 PM.png)
 
 # Resultados obtenidos
+
 | Algoritmo                              | Precisión |
-|----------------------------------------|-----------|
+|------------ |-----------|
 | AdaBoost con un Decision Tree          | 52,33%    |
 | AdaBoost con Decision Stump            | 36.67%    |
 | Gradient Boosted Trees                 | 59,33%    |
