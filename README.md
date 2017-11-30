@@ -1,5 +1,6 @@
 ## Bienvenido al repositorio de Machine Learning - Grupo1 - UCU
-### Gabriel Caamaño - Juan Manuel Cicao - Jose Echague - Amparo Iglesias
+   Gabriel Caamaño - Juan Manuel Cicao - Jose Echague - Amparo Iglesias
+   
 # Casos de estudio
 
 ## Caso 1 - Heart Disease
