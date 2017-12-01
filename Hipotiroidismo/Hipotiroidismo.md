@@ -131,7 +131,7 @@ Dentro de las mediciones de distancia tenemos medición como euclidiano, el cose
 Se testeo con la recomendacion segun el modulo de optimizacion de parametros y tambien con pruebas manuales.
 
 ### Modelo
-g
+
 ![](modelo2.png "Modelo densidad 1")
 
 ![](modelo.png "Modelo densidad 2")
