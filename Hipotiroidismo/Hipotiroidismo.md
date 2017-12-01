@@ -176,9 +176,9 @@ Se pudo observar que los modelos de detección de outliers no fueron exitosos ya
 
 Los resultados son moderadamente aceptables si se considera como un problema de clasificación, pero si se toma en cuenta que la clase que se predice tiene una baja representación dentro del dataset, el resultado puede ser considerado bueno.
 
-# Presentacion
+# Presentación
 
-Descargue la presentacion con imagenes del proceso haciendo click en el siguiente [enlace](Deteccion de anomalías.pdf)
+Descargue la presentación con imágenes del proceso haciendo click en el siguiente [enlace](Deteccion de anomalías.pdf)
  
 # Enlaces
 ### [Descargar Modelo Rapidminer preprocesamiento no supervisado](Modelo/preprocesamiento_primera etapa.rmp)
